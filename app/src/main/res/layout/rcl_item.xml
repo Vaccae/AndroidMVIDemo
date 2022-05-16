@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:background="@color/design_default_color_primary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1001"
+        android:textSize="10pt"
+        android:textColor="@color/white"
+        android:id="@+id/rcl_drugs_ckcode"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/rcl_drugs_ckcode"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000001"
+        android:textColor="@color/white"
+        android:id="@+id/rcl_drugs_code"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/rcl_drugs_code"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="复方维生素B含片"
+        android:id="@+id/rcl_drugs_name"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/rcl_drugs_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="20mg"
+        android:id="@+id/rcl_drugs_specs"/>
+
+    <TextView
+        android:id="@+id/rcl_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textColor="@color/white"
+        android:textSize="14pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
