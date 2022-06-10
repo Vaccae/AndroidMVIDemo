@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout-sw600dp/activity_fold.xml" value="0.1" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout-sw600dp/activity_fold_flat.xml" value="0.177734375" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.177734375" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_demo.xml" value="0.23697916666666666" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_fold.xml" value="0.1" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_fold_flat.xml" value="0.23697916666666666" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_windowinfotracker.xml" value="0.23697916666666666" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/rcl_item.xml" value="0.23697916666666666" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/splie_layout_start.xml" value="0.2359375" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/split_layout_end.xml" value="0.1" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/xml/activity_fold_scene_flat.xml" value="0.23697916666666666" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/xml/activity_motion_scene.xml" value="0.2359375" />
         <entry key="..\:/Business/DemoTEST/android/MVIDemo/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Business/DemoTEST/android/MVIDemo/app/src/main/res/layout/rcl_item.xml" value="0.26197916666666665" />
       </map>

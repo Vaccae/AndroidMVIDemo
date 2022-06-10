@@ -18,4 +18,7 @@ sealed class ActionIntent {
 
     //删除药品信息
     data class DelDrugs(val idx: Int, val item: CDrugs) : ActionIntent()
+
+    //信息 type为1时清空数据，为0时追加数据
+    data class Info(val msg: String) : ActionIntent()
 }

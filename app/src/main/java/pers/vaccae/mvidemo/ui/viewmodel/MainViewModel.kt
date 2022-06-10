@@ -42,9 +42,17 @@ class MainViewModel : ViewModel() {
                     is ActionIntent.DelDrugs -> {
                         DelDrugs(it.idx)
                     }
+                    is ActionIntent.Info -> {
+                        InfoMsg(it.msg)
+                    }
                 }
             }
-            actionIntent.consumeAsFlow()
+        }
+    }
+
+    private fun InfoMsg(msg: String){
+        viewModelScope.launch {
+            _actionstate.emit(ActionState.Info(msg))
         }
     }
 
