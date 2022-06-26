@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
 
+    <meta-data android:name="android.supports_size_changes" android:value="true" />
     <meta-data
         android:name="android.allow_multiple_resumed_activities"
         android:value="true" />

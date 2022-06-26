@@ -17,6 +17,5 @@ sealed class ActionState {
 
     data class Error(val msg: String?) : ActionState()
 
-    //type为1时清空数据，为0时追加数据
     data class Info(val msg: String?) : ActionState()
 }

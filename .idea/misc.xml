@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.243" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.243" />
         <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout-sw600dp/activity_fold.xml" value="0.1" />
         <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout-sw600dp/activity_fold_flat.xml" value="0.177734375" />
         <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.177734375" />
-        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_demo.xml" value="0.23697916666666666" />
+        <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_demo.xml" value="0.1" />
         <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_fold.xml" value="0.1" />
         <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_fold_flat.xml" value="0.23697916666666666" />
         <entry key="..\:/Business/DemoTEST/android/AndroidMVIDemo/app/src/main/res/layout/activity_main.xml" value="0.1" />

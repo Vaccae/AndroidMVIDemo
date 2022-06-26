@@ -10,6 +10,7 @@ import kotlin.reflect.KClass
 class DemoActivity : AppCompatActivity() {
 
     private val btnhing_angle :Button by lazy { findViewById(R.id.hing_angle_demo) }
+    private val btnwindowmanager : Button by lazy { findViewById(R.id.windonmanager_demo) }
     private val btnfold :Button by lazy { findViewById(R.id.fold_demo) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,9 @@ class DemoActivity : AppCompatActivity() {
             openActivity(MainActivity::class)
         }
 
-        btnfold.setOnClickListener { openActivity(WindowInfoTrackerActivity::class) }
+        btnwindowmanager.setOnClickListener { openActivity(WindowInfoTrackerActivity::class) }
+
+        btnfold.setOnClickListener { openActivity(FoldActivity::class) }
     }
 
     private fun <T : Any> openActivity(cls: KClass<T>){

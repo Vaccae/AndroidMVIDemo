@@ -34,7 +34,6 @@ android {
 
 dependencies {
     implementation 'androidx.window:window:1.0.0'
-    implementation 'androidx.window:window-testing:1.0.0'
 
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
 
